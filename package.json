@@ -43,7 +43,7 @@
     "prepublishOnly": "npm run build",
     "format": "echo \"no formatter configured\"",
     "lint": "npm run typecheck",
-    "test": "npm run build && node --test \"test/**/*.test.mjs\""
+    "test": "npm run build && node --test test/*.test.mjs"
   },
   "devDependencies": {
     "@types/node": "^22.0.0",
